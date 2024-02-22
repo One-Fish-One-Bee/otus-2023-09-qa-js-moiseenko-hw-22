@@ -1,0 +1,22 @@
+{
+  "name": "otus-2023-09-qa-js-moiseenko-hw-22",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "codeceptjs": "codeceptjs run --steps",
+    "codeceptjs:headless": "HEADLESS=true codeceptjs run --steps",
+    "codeceptjs:ui": "codecept-ui --app",
+    "codeceptjs:demo": "codeceptjs run --steps -c node_modules/@codeceptjs/examples",
+    "codeceptjs:demo:headless": "HEADLESS=true codeceptjs run --steps -c node_modules/@codeceptjs/examples",
+    "codeceptjs:demo:ui": "codecept-ui --app  -c node_modules/@codeceptjs/examples"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.41.2",
+    "@types/node": "^20.11.19",
+    "codeceptjs": "^3.4.1"
+  }
+}
